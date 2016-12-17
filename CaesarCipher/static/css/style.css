@@ -1,9 +1,9 @@
 body{
-    background-color: slategrey;
+    background-color: #dddddd;
     font-family: 'Muli';
 }
 .container{
-    background-color: rgba(0, 86, 255, 0.1);
+    background-color: #999999;
 }
 
 textarea.form-control{
@@ -23,4 +23,5 @@ textarea.form-control{
 #chart{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: white;
 }
