@@ -1,0 +1,26 @@
+body{
+    background-color: slategrey;
+    font-family: 'Muli';
+}
+.container{
+    background-color: rgba(0, 86, 255, 0.1);
+}
+
+textarea.form-control{
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.btnlist input{
+    margin-top: 40px;
+}
+.btnlist button{
+    margin-top: 10px;
+}
+
+#chart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
