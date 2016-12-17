@@ -8,7 +8,7 @@ git clone https://github.com/deoniszp/TraineePythonDjango.git
 ```
 - Перейти в каталог с проектом командой:
 ```
-cd TraineeCaesarCipher
+cd TraineePythonDjango
 ```
 - Создать виртуальное окружение командой:
 ```
@@ -39,7 +39,7 @@ git clone https://github.com/deoniszp/TraineePythonDjango.git
 ```
 - Перейти в каталог с проектом командой:
 ```
-cd TraineeCaesarCipher
+cd TraineePythonDjango
 ```
 - Создать виртуальное окружение командой:
 ```
