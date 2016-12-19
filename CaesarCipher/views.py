@@ -2,6 +2,7 @@
 from django.shortcuts import render, render_to_response
 from django.http import JsonResponse
 from collections import Counter
+import re
 import json
 
 dic = [chr(x) for x in range(ord('a'), ord('z') + 1)]
@@ -17,6 +18,7 @@ def decrypt(text, shift):
 
 
 def findshift(text):
+    text = re.sub(r'[^a-z]','',text)
     highfreq = Counter(text).most_common(3)
     l = [str((ord('e') - ord(key)) * -1) if ((ord('e') - ord(key)) <= 0) else str(((ord('e') - ord(key)) * -1) + dicLen) for key, value in highfreq]
     if l[0] == '0':
